@@ -1,0 +1,41 @@
+.list {
+    padding: 1rem;
+
+    ul {
+        margin-top: 1rem;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    li {
+        padding: 0;
+        border: 2px solid rgb(155, 155, 155);
+        border-radius: 4px;
+        width: 100px;
+        height: 30px;
+
+        button {
+            width: 100px;
+            height: 30px;
+            border-radius: 4px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            transition: .4s ease;
+            font-weight: 800;
+        }
+
+        button:hover {
+            background-color: rgb(155, 155, 155);
+            border: 2px solid #fff;
+            color: #fff;
+        }
+    }
+
+    li:hover {
+        border: none;
+    }
+}
